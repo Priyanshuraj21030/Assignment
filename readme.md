@@ -440,7 +440,7 @@ Response:
 {}
 ```
 
-![Empty Request Test](./screenshots/empty.png)
+![Empty Request Test](./empty.png)
 
 ### Test Coverage
 
