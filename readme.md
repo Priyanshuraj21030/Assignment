@@ -308,13 +308,7 @@ curl -X POST http://localhost:3000/identify \
 -d '{}'
 ```
 
-### Health Check
 
-GET /health - Returns server status
-
-```bash
-curl http://localhost:3000/health
-```
 
 ## Error Codes
 
@@ -373,7 +367,7 @@ Response:
 }
 ```
 
-![Initial Contact Creation](./screenshots/initial-commit.png)
+![Initial Contact Creation](./initial-commit.png)
 
 2. **Secondary Contact Creation**
    Request:
@@ -398,7 +392,7 @@ Response:
 }
 ```
 
-![Secondary Contact Creation](./screenshots/secondary.png)
+![Secondary Contact Creation](./secondary.png)
 
 3. **Query by Email**
    Request:
@@ -409,7 +403,7 @@ Response:
 }
 ```
 
-![Query by Email](./screenshots/email.png)
+![Query by Email](./email.png)
 
 4. **Query by Phone**
    Request:
@@ -420,7 +414,7 @@ Response:
 }
 ```
 
-![Query by Phone](./screenshots/phone.png)
+![Query by Phone](./phone.png)
 
 5. **Invalid Email Test**
    Request:
@@ -431,7 +425,7 @@ Response:
 }
 ```
 
-![Invalid Email Test](./screenshots/invalid.png)
+![Invalid Email Test](./invalid.png)
 
 6. **Empty Request Test**
    Request:
