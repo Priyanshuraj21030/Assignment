@@ -115,7 +115,7 @@ The service implements the following identity reconciliation rules:
 1. **Clone the repository**
 
 ```bash
-git clone [your-repo-url]
+git clone https://github.com/Priyanshuraj21030/Assignment.git
 ```
 
 2. **Install dependencies**
